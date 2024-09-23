@@ -32,3 +32,21 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.task-name {
+  align-items: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #0f2f8f;
+    font-style: italic;
+   display: flex;
+   justify-content: center;
+}
+
+.task-name:hover {
+  color: blueviolet;
+  font-weight: 500;
+    font-size: 50px;
+}
